@@ -1242,6 +1242,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   .clients-item { min-width: calc(33.33% - 10px); }
 
 
+/* Mengurangi margin untuk semua elemen */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Menerapkan box-sizing ke semua elemen */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 
   /**
    * #PORTFOLIO, BLOG 
